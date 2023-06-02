@@ -1,0 +1,292 @@
+
+* {
+    margin:0;
+    padding:0;
+}
+
+.headbotton {
+    z-index: 1;
+    position: fixed;
+    float: right;
+    width: 92%;
+    text-align: right;
+    cursor: pointer;
+    margin: 50px
+
+}
+
+.headbotton a:active {
+    color: blue;
+
+}
+
+
+
+.headbotton a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+
+}
+
+
+.logo {
+    width: 85px;
+    height: 85px;
+    border-radius: 100%;
+    margin: 20px; 
+    float: left;
+}
+
+.namelogo {
+    position: absolute;
+    color: white;
+    scroll-margin-top: 50px;
+    float: left;
+    padding-top: 50px;
+
+
+}
+
+.headlogo {
+    z-index: 1;
+    position: fixed;
+
+}
+
+#titlephoto1 {
+    height: 520px;
+    float: right;
+    position: absolute;
+    left: 761.46px;
+    top: 15.85px;
+}
+
+#titlephoto2 {
+    height: 400px;
+    float: left;
+    padding-top: 200px;
+    left: -5.55px;
+    top: 154.44px;
+    position: absolute;
+}
+
+#texttitle {
+    position: absolute;
+    color: rgb(45, 117, 134);
+    left: 10.73px;
+    top: 99.44px;
+    font-family: 'Inter';
+
+    line-height: 17px;
+}
+
+#texttitle2 {
+    position: absolute;
+    color: rgb(230, 227, 222);
+    width: 1000px;
+    height: 312px;
+    left: 265.05px;
+    top: 130.38px;
+    
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-size: 209.341px;
+
+}
+
+#titlephoto4{
+    position: absolute;
+    width: 577.09px;
+    height: 895.48px;
+    left: 145.25px;
+    top: 1271.69px;
+
+}
+
+#titlephoto5 {
+    position: absolute;
+    width: 577.09px;
+    height: 434.7px;
+    left: 796.56px;
+    top: 1271.69px;
+}
+
+#titlephoto13 {
+    position: absolute;
+    width: 577.09px;
+    height: 989.22px;
+    left: 796.56px;
+    top: 1764.84px;
+}
+
+#titlephoto9 {
+    position: absolute;
+    width: 577.09px;
+    height: 425.34px;
+    left: 145.25px;
+    top: 2227.52px;
+}
+
+#titlephoto7{
+    position: absolute;
+    width: 577.09px;
+    height: 502.87px;
+    left: 145.25px;
+    top: 2707.68px;
+}
+
+#titlephoto8{
+    position: absolute;
+    width: 577.09px;
+    height: 403.76px;
+    left: 796.56px;
+    top: 2807.14px;
+}
+
+.portfoliointitle{
+    position: absolute;
+    color: white;
+    left: 40%;
+    top: 1000px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-size: 55.3081px;
+    line-height: 400px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.portfoliointitle a:active{
+    color: blue;
+}
+
+.authorintitle {
+    position: absolute;
+    color: blanchedalmond;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-size: 55.3081px;
+    line-height: 400px;;
+    left: 40%;
+    top: 3285.72px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.authortexttitle {
+    position: absolute;
+    color: white;
+    width: 633.18px;
+    height: 672px;
+    left: 165.93px;
+    top: 3621.59px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 48px;
+}
+
+.nexttext {
+    position: absolute;
+    color:blanchedalmond;
+    left: 239.93px;
+    top: 4101.59px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 48px;
+}
+
+.titlephoto15 {
+    position: absolute;
+    width: 480px;
+    left: 849.93px;
+    top: 3585.59px;
+
+}
+
+.form1 {
+    position: absolute;
+    color: rgb(28, 28, 28);
+    font-family: 'Iner';
+    font-style: normal;
+    font-size: 20.3081px;
+    left: 37%;
+    top: 4400.59px;
+
+}
+
+.formname {
+
+    background-color:rgb(46, 41, 29);
+    border: none;
+    color: blanchedalmond;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    
+}
+
+.button {
+    background-color:rgb(124, 124, 124);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+#titlecontact {
+    position: absolute;
+    color: blanchedalmond;
+    font-family: 'Iner';
+    font-style: normal;
+    font-size: 40.3081px;
+    left: 43%;
+    top: 5020.59px;
+    text-decoration: none;
+}
+
+.list {
+    position: absolute;
+    color: rgb(157, 150, 141);
+    font-family: 'Iner';
+    font-style: normal;
+    font-size: 20.3081px;
+    left: 42%;
+    top: 5080.59px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+#link {
+    color: rgb(209, 240, 252);
+    font-size: 21.3081px;
+}
+
+#endtitle {
+    position: absolute;
+    color: rgb(183, 175, 164);
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-size: 15.3081px;
+    left: 38%;
+    top: 5300.59px;
+    padding: 50px;
+}
+
+.input_output {
+    border: none;
+    color: rgb(203, 202, 202);
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+}
