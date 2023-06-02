@@ -1,0 +1,245 @@
+body {
+    background-color:rgb(28, 28, 28);
+}
+
+* {
+    margin:0;
+    padding:0;
+}
+
+.headbotton {
+    z-index: 1;
+    position: fixed;
+    float: right;
+    width: 92%;
+    text-align: right;
+    cursor: pointer;
+    margin: 50px
+
+}
+
+.headbotton a:active {
+    color: blue;
+
+}
+
+.headbotton a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+
+}
+
+
+.logo {
+    width: 85px;
+    height: 85px;
+    border-radius: 100%;
+    margin: 20px; 
+    float: left;
+}
+
+.namelogo {
+    position: absolute;
+    color: white;
+    scroll-margin-top: 50px;
+    float: left;
+    padding-top: 50px;
+
+
+}
+
+.headlogo {
+    z-index: 1;
+    position: fixed;
+
+}
+
+#video1 {
+    position: relative;
+    float: left;
+    width: 754px;
+    top: 100px;
+    padding-left: 10px;
+    
+}
+
+#video2 {
+    position: relative;
+    float: left;
+    top: 100px;
+    width: 754px;
+}
+
+#titleportfolio {
+    z-index: 1;
+    position: absolute;
+    color: rgb(55, 252, 1);
+
+    height: 312px;
+    left: 80.05px;
+    top: 140.38px;
+    
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-size: 89.341px;
+}
+
+#titleportfolio2 {
+    z-index: 1;
+    position: absolute;
+    color: rgb(55, 252, 1);
+
+    height: 312px;
+    left: 400.05px;
+    top: 290.38px;
+    
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-size: 89.341px;
+}
+
+
+.port {
+    position: relative;
+    top: 300px;
+    width: 340px;
+    left: 30px;
+    padding: 10px;
+
+}
+
+table {
+
+    border-color: antiquewhite;
+    border: 1px solid;
+}
+
+#topbot {
+    z-index: 1;
+    background-color: antiquewhite;
+    color: black;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 50%;
+    position: fixed;
+    top:680px;
+    left: 1420px;
+    width: 50px;
+    height: 50px;
+    float: right;
+    cursor: pointer;
+}
+
+#topbot a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.coment {
+    position: relative;
+    color:antiquewhite;
+    top: 500px;
+    height: 312px;
+    width: 1550px;
+    height: 50px;
+    background-color: rgb(33, 33, 33);
+    text-align: center;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-size: 29.341px;
+}
+
+.coment2 {
+    position: relative;
+    color:antiquewhite;
+    top: 1100px;
+    height: 312px;
+    width: 1550px;
+    height: 50px;
+    background-color: rgb(33, 33, 33);
+    text-align: center;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-size: 19.341px;
+}
+
+
+
+.form1 {
+    position: absolute;
+    background-color: rgb(33, 33, 33);
+
+    text-align: center;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-size: 20.3081px;
+    left: 34%;
+    top: 7450px;
+
+}
+
+.formname {
+    position: relative;
+    background-color:rgb(46, 41, 29);
+    border: none;
+    color: blanchedalmond;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+
+}
+
+.button {
+    background-color:rgb(124, 124, 124);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+
+
+#titlecontact {
+    position: absolute;
+    color: blanchedalmond;
+    font-family: 'Iner';
+    font-style: normal;
+    font-size: 40.3081px;
+    left: 43%;
+    top: 8420.59px;
+    text-decoration: none;
+}
+
+.list {
+    position: absolute;
+    color: rgb(157, 150, 141);
+    font-family: 'Iner';
+    font-style: normal;
+    font-size: 20.3081px;
+    left: 42%;
+    top: 8480.59px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+#link {
+    color: rgb(209, 240, 252);
+    font-size: 21.3081px;
+}
+
+#endtitle {
+    position: absolute;
+    color: rgb(183, 175, 164);
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-size: 15.3081px;
+    left: 38%;
+    top: 8700.59px;
+    padding: 50px;
+}
