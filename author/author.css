@@ -1,0 +1,315 @@
+
+body {
+    background-color:rgb(28, 28, 28);
+}
+
+* {
+    margin:0;
+    padding:0;
+}
+
+.logo {
+    width: 85px;
+    height: 85px;
+    border-radius: 100%;
+    margin: 20px; 
+    float: left;
+}
+
+.namelogo {
+    position: absolute;
+    color: white;
+    scroll-margin-top: 50px;
+    float: left;
+    padding-top: 50px;
+
+}
+
+.headlogo {
+    z-index: 1;
+    position: fixed;
+
+}
+
+.headbotton {
+    z-index: 1;
+    position: fixed;
+    float: right;
+    width: 92%;
+    text-align: right;
+    cursor: pointer;
+    margin: 50px
+
+}
+
+.headbotton a:active {
+    color: blue;
+
+}
+
+.headbotton a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+
+}
+
+.author1 {
+    position:relative;
+    float: left;
+    left: 450px;
+    top: 395px;
+    width: 509px;
+    padding: 20px;
+}
+
+.author2 {
+    position:absolute;
+    float: left;
+    left: 450px;
+    top: 80px;
+    width: 508px;
+    padding: 20px;
+}
+
+.author3 {
+    position:absolute;
+    float: left;
+    left: 969px;
+    top: 200px;
+    width: 450px;
+    padding: 20px;
+}
+
+.author4 {
+    position:absolute;
+    left: 90px;
+    top: 110px;
+    width: 350px;
+    padding: 20px;
+}
+
+#nameauthor {
+    z-index: 2;
+    position: absolute;
+    color: rgb(237, 152, 14);
+    width: 1000px;
+
+    left: 440.05px;
+    top: 290.38px;
+    
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-size: 90.341px; 
+}
+
+#nameauthor2 {
+    z-index: 2;
+    position: absolute;
+    color: rgb(237, 152, 14);
+    width: 1000px;
+
+    left: 400.05px;
+    top: 390.38px;
+    
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-size: 90.341px; 
+}
+
+#content {
+    position: absolute;
+    color: rgb(237, 152, 14);
+    left: 48%;
+    top: 1040.38px;
+    
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-size: 30.341px;
+    
+}
+
+#contentdetails {
+    position: absolute;
+    color:rgb(0, 0, 0);
+    left: 45%;
+    top: 1090.38px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 18.341px;
+    padding: 10px;
+    
+}
+
+#contentdetails a {
+    color: rgb(112, 103, 89);
+    text-decoration: none;
+}
+
+#pointtext1 {
+    position: absolute;
+    color: rgb(237, 152, 14);
+    left: 43%;
+    top: 1390.38px;
+    
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-size: 30.341px;
+}
+
+.text1{
+    color: rgb(112, 103, 89);
+    position: absolute;
+    text-indent:70px;
+    left: 15%;
+    top: 1440.38px;
+    width: 1100px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 18.341px;
+    padding: 10px;
+}
+
+#pointtext2 {
+    position: absolute;
+    color: rgb(237, 152, 14);
+    left: 41%;
+    top: 1760.38px;
+    
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-size: 30.341px;
+}
+
+.text2 {
+    color: rgb(112, 103, 89);
+    position: absolute;
+    text-indent:70px;
+    left: 15%;
+    top: 1810.38px;
+    width: 1100px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 18.341px;
+    padding: 10px;
+}
+
+#pointtext3 {
+    position: absolute;
+    color: rgb(237, 152, 14);
+    left: 41%;
+    top: 2300.38px;
+    
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-size: 30.341px;
+}
+
+.text3 {
+    color: rgb(112, 103, 89);
+    position: absolute;
+    text-indent:70px;
+    left: 15%;
+    top: 2355.38px;
+    width: 1100px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 18.341px;
+    padding: 10px;
+}
+
+#pointtext4 {
+    position: absolute;
+    color: rgb(237, 152, 14);
+    left: 41%;
+    top: 2840.38px;
+    
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-size: 30.341px;
+}
+
+.text4 {
+    color: rgb(112, 103, 89);
+    position: absolute;
+    text-indent:70px;
+    left: 15%;
+    top: 2890.38px;
+    width: 1100px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 18.341px;
+    padding: 10px;
+}
+
+
+#titlecontact {
+    position: absolute;
+    color: blanchedalmond;
+    font-family: 'Iner';
+    font-style: normal;
+    font-size: 40.3081px;
+    left: 46%;
+    top: 5020.59px;
+    text-decoration: none;
+}
+
+.list {
+    position: absolute;
+    color: rgb(157, 150, 141);
+    font-family: 'Iner';
+    font-style: normal;
+    font-size: 20.3081px;
+    left: 44%;
+    top: 5100.59px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+#link {
+    color: rgb(209, 240, 252);
+    font-size: 21.3081px;
+}
+
+#endtitle {
+    position: absolute;
+    color: rgb(183, 175, 164);
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-size: 15.3081px;
+    left: 39%;
+    top: 5300.59px;
+    padding: 50px;
+}
+
+pre {
+    white-space: pre-line;
+  }
+
+p::first-letter {
+    color: rgb(86, 130, 40);
+  }
+
+
+
+.weather {
+    font-family: 'Inter';
+    font-style: normal;
+    text-align: center;
+    font-size: 18.341px;
+    position:absolute;
+    background-color: white;
+    border-radius: 10px;
+    left: 44%;
+    padding: 20px;
+    top: 3220.59px;
+    display: inline-block;
+
+}
+
+
